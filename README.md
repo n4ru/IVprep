@@ -12,7 +12,7 @@
                     888                       888      
 </pre>
                     
-Downgrade any xx30 series ThinkPad to an [1vyrain compatible](https://github.com/gch1p/thinkpad-bios-software-flashing-guide#bios-versions) BIOS version.
+Downgrade any xx30 series ThinkPad to the latest [1vyrain compatible](https://github.com/gch1p/thinkpad-bios-software-flashing-guide#bios-versions) BIOS version.
 
 # Usage
 
