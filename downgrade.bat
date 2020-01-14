@@ -17,11 +17,11 @@ echo.
 echo Press Enter to downgrade your ThinkPad to an 1vyrain compatible BIOS version.
 pause>nul
 for /f "tokens=1 delims==" %%f in ('wmic csproduct get version ^| findstr /R ThinkPad') do set "model=%%f"
-if "%model%"=="ThinkPad W530  " winflash64 /sd /file .\BIOS\W530.FL1
-if "%model%"=="ThinkPad T530  " winflash64 /sd /file .\BIOS\T530.FL1
-if "%model%"=="ThinkPad X230  " winflash64 /sd /file .\BIOS\X230.FL1
-if "%model%"=="ThinkPad X230 Tablet  " winflash64 /sd /file .\BIOS\X230T.FL1
-if "%model%"=="ThinkPad T430  " winflash64 /sd /file .\BIOS\T430.FL1
-if "%model%"=="ThinkPad T430s  " winflash64 /sd /file .\BIOS\T430s.FL1
+if "%model%"=="ThinkPad W530  " .\BIOS\winflash64 /sd /file .\BIOS\W530.FL1
+if "%model%"=="ThinkPad T530  " .\BIOS\winflash64 /sd /file .\BIOS\T530.FL1
+if "%model%"=="ThinkPad X230  " .\BIOS\winflash64 /sd /file .\BIOS\X230.FL1
+if "%model%"=="ThinkPad X230 Tablet  " .\BIOS\winflash64 /sd /file .\BIOS\X230T.FL1
+if "%model%"=="ThinkPad T430  " .\BIOS\winflash64 /sd /file .\BIOS\T430.FL1
+if "%model%"=="ThinkPad T430s  " .\BIOS\winflash64 /sd /file .\BIOS\T430s.FL1
 if "%model%"=="none" echo No compatible model detected. Exiting.
 pause>nul
