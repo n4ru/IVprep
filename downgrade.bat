@@ -21,6 +21,7 @@ cd BIOS
 if "%model%"=="ThinkPad W530  " winflash64 /sd /file W530.FL1
 if "%model%"=="ThinkPad T530  " winflash64 /sd /file T530.FL1
 if "%model%"=="ThinkPad X230  " winflash64 /sd /file X230.FL1
+if "%model%"=="ThinkPad X230 Tablet  " winflash64 /sd /file X230t.FL1
 if "%model%"=="ThinkPad T430  " winflash64 /sd /file T430.FL1
 if "%model%"=="ThinkPad T430s  " winflash64 /sd /file T430s.FL1
 if "%model%"=="none" echo No compatible model detected. Exiting.
