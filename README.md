@@ -18,6 +18,8 @@ Downgrade any xx30 series ThinkPad to the latest [1vyrain compatible](https://gi
 
 Go into your BIOS setup. Navigate to **Security -> UEFI BIOS Update Option**. Set *Flash BIOS Updating by End-Users* to Enabled, and *Secure RollBack Prevention* to Disabled. 
 
+**Make sure you are plugged into power while running this. You WILL brick if you lose power while flashing, guaranteed.**
+
 Boot into any 64-bit Windows install. 
 
 Run `downgrade.bat` (NOT as Administrator - WinFlash64 should request admin on its own). The system will reboot and flash the BIOS region on your device. Voila! You're ready to run 1vyrain.
