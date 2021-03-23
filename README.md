@@ -31,4 +31,4 @@ Run `downgrade.bat` (NOT as Administrator - WinFlash64 should request admin on i
 
 IVprep currently **does not support** usage from operating systems besides Windows (64-bit). It has not been tested, or attempted on other operating systems. For safety, please use Windows (64-bit).
 
-If you are able to help achieve compatibility on *nix systems, such as GNU/Linux and BSD, this would be highly appreciated. This would negate the need to use Windows. Refer to #5
+If you are able to help achieve compatibility on *nix systems, such as GNU/Linux and BSD, this would be highly appreciated. This would negate the need to use Windows. Refer to issue [#5](https://github.com/n4ru/IVprep/issues/5)
